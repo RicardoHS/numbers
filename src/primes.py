@@ -118,14 +118,6 @@ def test_primality_fermat(p, k=5):
      - https://en.wikipedia.org/wiki/Fermat_primality_test
      - https://math.stackexchange.com/questions/3363141/probability-that-a-number-passing-the-fermat-test-is-prime
     """
-    """
-    if p in (1, 2):
-        return True
-
-    if p % 2 == 0:
-        return False
-    """
-
     for _ in range(k):
         a = random.randint(1, p - 1)
         if math.pow(a, p - 1) % p != 1:
