@@ -15,3 +15,8 @@ Most of the functions contains descriptions and references to the places I learn
 ## Euler
  - Generate primes using polynomial 1,1,41 and Euler Lucky Numbers.
  
+ ## Fractals
+ ![](playground/out/collage.png)
+ - Mandelbrot and Julia sequences generative functions and classes
+ - Plotting mandelbrot sets
+ 
